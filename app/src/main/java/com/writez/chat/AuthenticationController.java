@@ -51,6 +51,7 @@ public class AuthenticationController {
         userController.setUserData(mUser.getUid(), "name", mUser.getName());
         userController.setUserData(mUser.getUid(), "token", mUser.getToken());
         userController.setUserData(mUser.getUid(), "photoUrl", mUser.getPhotoUrl());
+        userController.setUserData(mUser.getUid(), "uid", mUser.getUid());
     }
 
     public void signOut() {
