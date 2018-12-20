@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.firebase.codelab.friendlychat;
+package com.writez.chat;
 
 import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.rule.ActivityTestRule;
