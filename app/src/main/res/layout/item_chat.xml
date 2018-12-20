@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ffffff"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:id="@+id/text"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="50dp"
+            android:background="#00ffffff"
+            android:padding="0dp">
+
+            <TextView
+                android:id="@+id/chatMessage"
+                android:layout_width="264dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:paddingTop="25dp"
+                android:text="Event Name "
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/chatName"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:paddingBottom="30dp"
+                android:paddingTop="0dp"
+                android:text="Name "
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chatInfo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="#00ffffff"
+            android:padding="0dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/chatNewMsg"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/circle512" />
+
+            <TextView
+                android:id="@+id/chatTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="false"
+                android:layout_centerVertical="false"
+                android:paddingTop="25dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chatImageView"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_account_circle_black_36dp" />
+
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Writez</string>
+    <string name="welcome_msg">Welcome!</string>
+    <string name="sign_out">Ausloggen</string>
+    <string name="contacts_permission_rationale">Access to account information is required to sign in.</string>
+    <string name="sign_in">Mit Google anmelden</string>
+    <string name="title_activity_private_chat">Chat</string>
+    <string name="title_activity_user_overview">Benutzer wählen</string>
+    <string name="title_activity_chat_overview">Writez</string>
+    <string name="user_menu_label">Benutzer</string>
+    <string name="global_menu_label">Global</string>
+</resources>
